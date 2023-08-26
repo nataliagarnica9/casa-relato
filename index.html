@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio - Casa Relato</title>
+    <link rel="icon" type="image/x-icon" href="images/logo.jpg">
     <link rel="stylesheet" type="text/css" href="dist/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="dist/css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&display=swap" rel="stylesheet">
 </head>
-<body>
+<body style="background-image: url('images/cafe.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
     <nav class="navbar shadow-sm fixed-top">
         <div class="navbar-container container-nav">
             <input type="checkbox" name="" id="">
@@ -20,22 +21,52 @@
                 <span class="line line3"></span>
             </div>
             <ul class="menu-items">
-                <li><a href="#">Quienes somos</a></li>
-                <li><a href="#">Eventos</a></li>
-                <li><a href="#">Historias</a></li>
+                <li><a href="pages/QuienesSomos.html">Quienes somos</a></li>
+                <li><a href="pages/Eventos.html">Eventos</a></li>
+                <li><a href="pages/Historias.html">Historias</a></li>
+                <li><a href="pages/Referencias.html">Reseñas</a></li>
                 <li><a href="pages/contacto.html">Contáctanos</a></li>
             </ul>
-            <img class="logo" src="images/logo.jpg" alt="logo de casa relato">
+            <!-- <img class="logo" src="images/logo.jpg" alt="logo de casa relato"> -->
+            <a href="index.html">
+              <img class="logo" src="images\logo.jpg" alt="logo de casa relato">
+          </a>
         </div>
     </nav>
     
-    <div class="container mt-cr">
+    <div class="container mt-cr" style="background-color:rgba(232, 220, 202, 0.9); padding: 20px;">
         <div class="row">
-            <div class="col-7">
-                <h2>Somos casa relato</h2>
-                <p>Este proyecto surge con el propósito, de construir una memoria viva...</p>
+            <div class="col-7 mx-auto">
+                <h2 style="color: rgb(247, 140, 0);">Somos casa relato</h2>
+                <p>Este proyecto surge con el propósito, de construir una memoria viva; Hilando reduerdos, relatos e Historias de una region que se desarrollo gracias al auge de la industria
+                  textil, la riqueza de sus tierras y su diversidad cultual.</p>
+
+                  <h3 style="color: rgb(247, 140, 0);">Veamos algunas de nuestras cosas..</h3>
+
+                  <br>
+
+                  <div class="card">
+                    <img src="images/artesanal.jpeg" class="card-img-top" alt="Cafe Artesanal">
+                    <div class="card-body" style="background-color:rgba(173, 149, 113, 0.9)" >
+                      <h5 class="card-title">Café Artesanal Bellanita</h5>
+                      <p class="card-text">Si al igual que nosotros disfrutas de un buen café y buscas apoyar a los campesinos comprando productos locales, pues no esperes más, adquiere en Casa Relato una bolsita de Bello Café sembrada en las montañas de la vereda Potrerito por la familia Patiño.</p>
+                      <a href="#" class="btn btn-primary">Quiero Comprar</a>
+                    </div>
+                  </div>
+
+                  <br>
+                  <br>
+
+                  <div class="card">
+                    <img src="images/Espacio.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body" style="background-color:rgba(173, 149, 113, 0.9)" >
+                      <h5 class="card-title">Espacios Acogedores</h5>
+                      <p class="card-text">Bienvenidos a nuestro jardín ¡EL JARDÍN DE LA MEMORIA! un espacio abierto y colectivo pensando para reconectar y regenerar la vida. Este espacio une la naturaleza por medio del encuentro y el diálogo, y desde acá, construimos narrativas alrededor del amor, el cuidado, la paciencia y la observación. 🌿🌻</p>
+                      <a href="#" class="btn btn-primary">Quiero Visitarlo</a>
+                    </div>
+                  </div>
             </div>
-            <div class="col-5">
+            <!-- <div class="col-5">
                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
@@ -56,7 +87,7 @@
                     </div>
                   </div>
             </div>
-        </div>
+        </div> -->
     </div>
 
  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
