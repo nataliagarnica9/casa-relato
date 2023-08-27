@@ -1,0 +1,17 @@
+.Articulo {
+    display: flex;
+    align-items: center;
+  }
+
+  .imagen {
+    flex: 1;
+    max-width: 50%;
+  }
+
+  .Fecha {
+    font-size: 14px;
+    color: gray;
+  }
+  .Fondo1{
+    background: #A8F4F6;
+  }
