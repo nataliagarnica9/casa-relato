@@ -74,18 +74,18 @@ button:hover {
 button:disabled {
     background-color: #ccc;
     cursor: not-allowed;
-}  */
+}   */
 
-body {
+ body {
     font-family: Arial, sans-serif;
-    background-image: url('../../images/slide-6.jpg'); /* Cambia 'tu-imagen-de-fondo.jpg' con la ruta de tu imagen */
+    background-image: url('../../images/slide-6.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
 .navbar {
-    background-color: rgba(0, 0, 0, 0.6); /* Fondo semitransparente para que la navegación sea legible */
+    background-color: rgb(255, 254, 254); 
 }
 
 
@@ -94,14 +94,14 @@ body {
     max-height: 50px;
 }
 
-/* Cambia el color de las letras de los enlaces del menú a negro */
+
 .navbar-nav .nav-link {
-    color: #000; /* Cambia este color a negro */
+    color: #000000; 
 }
 
-/* Cambia el color del enlace "Quienes somos" a negro */
+
 .navbar-nav .nav-item.black-link a {
-    color: #000; /* Cambia este color a negro */
+    color: #ffffff; 
 }
 
 .comment-container {
@@ -136,7 +136,7 @@ h2 {
 .comment p {
     margin: 5px 0;
     font-size: 16px;
-    color: #666;
+    color: #0f0f0f;
 }
 
 label {
@@ -172,4 +172,4 @@ button:hover {
 button:disabled {
     background-color: #ccc;
     cursor: not-allowed;
-}
+} 
