@@ -1,4 +1,4 @@
-
+/* 
 body {
     font-family: Arial, sans-serif;
     margin: 50px;
@@ -8,7 +8,7 @@ body {
 
 #comments {
     max-width: 800px;
-    margin: 50px auto 0; /* Ajusta el valor del margen superior */
+    margin: 50px auto 0;
     background-color: rgba(232, 220, 202, 0.815);
     padding: 20px;
     border-radius: 10px;
@@ -74,4 +74,102 @@ button:hover {
 button:disabled {
     background-color: #ccc;
     cursor: not-allowed;
-} 
+}  */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../../images/slide-6.jpg'); /* Cambia 'tu-imagen-de-fondo.jpg' con la ruta de tu imagen */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo semitransparente para que la navegación sea legible */
+}
+
+
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+/* Cambia el color de las letras de los enlaces del menú a negro */
+.navbar-nav .nav-link {
+    color: #000; /* Cambia este color a negro */
+}
+
+/* Cambia el color del enlace "Quienes somos" a negro */
+.navbar-nav .nav-item.black-link a {
+    color: #000; /* Cambia este color a negro */
+}
+
+.comment-container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: rgba(232, 220, 202, 0.815);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgb(247, 140, 0);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #f78c00;
+}
+
+.comment {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.comment h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.comment p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #666;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #f78c00;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

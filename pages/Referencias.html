@@ -10,33 +10,43 @@
     <link rel="stylesheet" type="text/css" href="..\dist\css\referencias.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <nav class="navbar shadow-sm fixed-top">
-        <div class="navbar-container container-nav">
-            <input type="checkbox" name="" id="">
-            <div class="hamburger-lines">
-                <span class="line line1"></span>
-                <span class="line line2"></span>
-                <span class="line line3"></span>
-            </div>
-            <ul class="menu-items">
-                <li><a href="QuienesSomos.html">Quienes somos</a></li>
-                <li><a href="Agenda.html">Agenda</a></li>
-                <li><a href="Historias.html">Historias</a></li>
-                <li><a href="Referencias.html">Referencias</a></li>
-                <li><a href="contacto.html">Contáctanos</a></li>
-            </ul>
-            <a href="../index.html">
-                <img class="logo" src="../images/logo.jpg" alt="logo de casa relato">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../images/logo.jpg" alt="logo de casa relato">
             </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="QuienesSomos.html">Quienes somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Agenda.html">Agenda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Historias.html">Historias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Referencias.html">Referencias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contáctanos</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
-    <div id="comments">
+    <div class="container comment-container">
         <h2>Comentarios</h2>
         <div class="comment">
             <h3>Davidslf01</h3>
@@ -44,19 +54,23 @@
         </div>
         <div class="comment">
             <h3>Aghost0626</h3>
-            <p>Me gusta mucho sus malteadas y la energía tan posotiva que maneja el espacio</p>
+            <p>Me gusta mucho sus malteadas y la energía tan positiva que maneja el espacio</p>
         </div>
         <!-- Agrega más comentarios aquí -->
 
         <h2>Deja tu comentario</h2>
         <form id="comment-form">
-            <label for="username">Nombre de Usuario:</label>
-            <input type="text" id="username" name="username" required><br>
+            <div class="form-group">
+                <label for="username">Nombre de Usuario:</label>
+                <input type="text" id="username" name="username" class="form-control" required>
+            </div>
 
-            <label for="comment">Comentario:</label>
-            <textarea id="comment" name="comment" rows="4" required></textarea><br>
+            <div class="form-group">
+                <label for="comment">Comentario:</label>
+                <textarea id="comment" name="comment" rows="4" class="form-control" required></textarea>
+            </div>
 
-            <button type="submit">Publicar Comentario</button>
+            <button type="submit" class="btn btn-primary">Publicar Comentario</button>
         </form>
     </div>
 
@@ -64,5 +78,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
    <!--<script src="dist/bootstrap/js/bootstrap.min.js"></script>-->
    <script src="dist/js/inicio.js"></script>
+   <!-- Agrega el enlace a Bootstrap JS y jQuery -->
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
    </body>
    </html>
