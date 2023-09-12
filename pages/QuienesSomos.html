@@ -6,12 +6,17 @@
         <title>Eventos - Casa Relato</title>
         <link rel="stylesheet" type="text/css" href="../dist/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="../dist/css/estilos.css">
-        <link rel="stylesheet" type="text/css" href="../dist/css/quienessomos.css">
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="../dist/css/quienessomos.css">|
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&display=swap" rel="stylesheet">
+
     </head>
-<body>
+<body body style="background-image: url('images/cafe.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
     <nav class="navbar shadow-sm fixed-top">
         <div class="navbar-container container-nav">
             <input type="checkbox" name="" id="">
@@ -21,56 +26,65 @@
                 <span class="line line3"></span>
             </div>
             <ul class="menu-items">
-                <li><a href="QuienesSomos.html">Quienes somos</a></li>
-                <li><a href="Agenda.html">Agenda</a></li>
-                <li class="nav-item dropdown">
+                <li><a href="../pages/QuienesSomos.html">Quienes somos</a></li>
+                <li><a href="../pages/Agenda.html">Agenda</a></li>
+                  <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Cultura
                     </a>
                     <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="pages/Relatos.html">Relatos</a></li>
-                  <li><a class="dropdown-item" href="pages/Bibiliotec.html">Biblioteca</a></li>
+                  <li><a class="dropdown-item" href="../pages/Bibiliotec.html">Biblioteca</a></li>
                   <li><a class="dropdown-item" href="pages/Historias.html">Historias</a></li>
                 </ul>
               </li>
-                <li><a href="Referencias.html">Referencias</a></li>
-                <li><a href="pages/Referencias.html">Aliados</a></li>
-                <li><a href="contacto.html">Contáctanos</a></li>
+                <li><a href="../pages/Referencias.html">Reseñas</a></li>
+                <li><a href="../pages/Referencias.html">Aliados</a></li>
+                <li><a href="../pages/contacto.html">Contáctanos</a></li>
             </ul>
+            <!-- <img class="logo" src="images/logo.jpg" alt="logo de casa relato"> -->
             <a href="../index.html">
-                <img class="logo" src="../images/logo.jpg" alt="logo de casa relato">
-            </a>
+              <img class="logo" src="../images/logo.jpg" alt="logo de casa relato">
+          </a>
         </div>
     </nav>
+
     <br>
     <br>
     <br>
     <br>
-    <section align="center" class="bloque-beige">
-        <h2>Misión</h2> 
-        <p>Nuestra Misión: Trabajamos incansablemente para proporcionar productos/servicios de la más alta calidad a nuestros clientes. Nuestra misión es superar las expectativas y crear un impacto positivo en la vida de las personas.</p>
-        <img src="../dist/images/CafeQuienesSomos.jpg" class="img-thumbnail" alt="Quienes_Somos" width="250px ">
-    </section>
 
-    <section align="center" id="bloque-azul">
-        <h2>Visión</h2>
-        <p>Nuestra Visión: Aspiramos a ser líderes en nuestra industria, reconocidos por nuestra innovación y compromiso con la excelencia. Queremos construir un futuro donde nuestros productos/servicios contribuyan de manera significativa a la sociedad.</p>
-        <img src="../dist/images/VisionCasa.jpg" alt="Imagen relacionada con la visión" width="350px">
-    </section>
+    <!-- Sección 1 - Visión -->
+    <div class="section beige-light">
+        <div class="content">
+            <img src="../images/VisionCasa.jpeg" width="250px" alt="Visión de la empresa">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium sed, aperiam voluptate ratione incidunt nobis molestiae aliquam! Voluptates sunt, soluta suscipit, amet quisquam quidem beatae, optio consequatur repudiandae natus id.</p>
+        </div>
+    </div>
 
-    <section align="center" class="bloque-beige">
-        <h2>Quienes Somos</h2>
-        <p>Aquí puedes agregar una descripción sobre quiénes son y qué hacen en tu página.</p>
-        <img src="../dist/images/QuienesSomos.jpg" alt="Imagen relacionada con Quienes Somos" width="400px">
-    </section>
+    <!-- Sección 2 - Misión -->
+    <div class="section blue-light even">
+        <div class="content">
+            <img src="../images/CafeQuienesSomos.jpeg" width="250" alt="Misión de la empresa">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis consequatur debitis vero incidunt dolorem aut dolores ipsum deleniti exercitationem molestiae accusamus ea aliquam culpa, totam eum dignissimos quisquam non nostrum!</p>
+        </div>
+    </div>
 
-    <section align="center" id="bloque-azul">
-        <h2>Por qué Surgimos</h2>
-        <p>Explica la razón detrás de la creación de tu página y cómo buscan resolver problemas o necesidades.</p>
-        <img src="../dist/images/URL_de_la_imagen_por_qué_surgimos" alt="Imagen relacionada con Por qué Surgimos">
-    </section>
-    
+    <!-- Sección 3 - Quiénes Somos -->
+    <div class="section green-light">
+        <div class="content">
+            <img src="../images/CafeQuienesSomos.jpeg" width="250" alt="Quiénes Somos">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium commodi suscipit, blanditiis alias iste reiciendis quae reprehenderit, laboriosam sed unde debitis facilis, rerum molestias illo adipisci sapiente. Maiores, debitis! Soluta.</p>
+        </div>
+    </div>
 
+    <!-- Sección 4 - Cómo Surgimos -->
+    <div class="section purple-light even">
+        <div class="content">
+            <img src="../images/ComoSurgimos.jpeg" width="250" alt="Cómo Surgimos">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus provident id ratione earum architecto deserunt cumque, corrupti neque qui cum, unde in? Obcaecati vero repudiandae eveniet sequi accusamus, impedit veritatis.</p>
+        </div>
+    </div>
 
 </body>
 </html>
