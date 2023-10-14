@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio - Casa Relato</title>
+    <title>Contactanos - Casa Relato</title>
     <link rel="stylesheet" type="text/css" href="../dist/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="../dist/css/estilos.css">
     <link rel="stylesheet" type="text/css" href="../dist/css/contacto.css">
@@ -101,6 +101,7 @@
                             </div>
                             <div class="col-2">
                                 <i class="fab fa-instagram icono-redes"></i>
+                                <a href="https://www.instagram.com/casarelato/" target="_blank"></a>
                             </div>
                             <div class="col-2">
                                 <i class="fab fa-youtube icono-redes"></i>
@@ -163,5 +164,17 @@
    <!--<script src="dist/bootstrap/js/bootstrap.min.js"></script>-->
    <script src="../dist/js/inicio.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script>
+    $(document).ready(function () {
+        $('.icono-redes').click(function () {
+            window.location.href = 'https://www.instagram.com/casarelato/';
+        });
+        $(".icon-redes").click(function(){
+            window.location.href = "https://www.facebook.com/profile.php?id=100084001088410"
+        })
+    });
+    </script>
+   
 </body>
 </html>

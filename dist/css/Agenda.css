@@ -42,3 +42,16 @@
   .Fondo3{
     background: white;
   }
+  .fondo4{
+    background-color: gray;
+    border-style: solid;
+  }
+  .input-form {
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 14em;
+    border: none;
+    border-bottom: 1px solid #CACFD2;
+    text-align: left;
+}
